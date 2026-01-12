@@ -6,7 +6,8 @@ comand:
 
 # Struct
 docker-lamp/
-\n├── docker-compose.yml
+├── docker-compose.yml
+
 ├── .env
 ├── nginx/
 │   ├── Dockerfile
