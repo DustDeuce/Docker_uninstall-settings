@@ -6,15 +6,23 @@ comand:
 
 # Struct
 docker-lamp/
+
 ├── docker-compose.yml
 
 ├── .env
+
 ├── nginx/
+
 │   ├── Dockerfile
+
 │   ├── nginx.conf
+
 │   ├── sites-available/
+
 │   │   ├── project1.conf
+
 │   │   └── project2.conf
+
 │   └── sites-enabled/
 ├── apache/
 │   ├── Dockerfile
