@@ -5,6 +5,7 @@
 comand: 
 
 # Struct
+```python
 docker-lamp/
 
 ├── docker-compose.yml
@@ -85,6 +86,7 @@ docker-lamp/
     
     ├── postgres/            # Логи PostgreSQL
     
-    │   └── postgresql.log
+        └── postgresql.log
+```
     
-    └── supervisor/          # Логи Supervisor (если используется)
+    
