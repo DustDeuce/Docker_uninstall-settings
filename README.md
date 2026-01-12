@@ -7,43 +7,24 @@ comand:
 # Struct
 ```python
 docker-lamp/
-
 ├── docker-compose.yml
-
 ├── .env
-
 ├── nginx/
-
 │   ├── Dockerfile
-
 │   ├── nginx.conf
-
 │   ├── sites-available/
-
 │   │   ├── project1.conf
-
 │   │   └── project2.conf
-
 │   └── sites-enabled/
-
 ├── apache/
-
 │   ├── Dockerfile
-
 │   ├── conf.d/
-
 │   └── sites-available/
-
 ├── php/
-
 │   └── php.ini
-
 ├── postgres/
-
 │   └── init/
-
 ├── projects/
-
 │   ├── project1/
 
 │   └── project2/
