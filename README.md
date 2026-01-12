@@ -26,47 +26,26 @@ docker-lamp/
 │   └── init/
 ├── projects/
 │   ├── project1/
-
 │   └── project2/
-
 └── logs/                    # ПАПКА С ЛОГАМИ
-
     ├── nginx/               # Логи Nginx
-    
     │   ├── access.log
-    
     │   ├── error.log
-    
     │   ├── project1_access.log
-    
     │   ├── project1_error.log
-    
     │   ├── project2_access.log
-    
     │   └── project2_error.log
-    
     ├── apache/              # Логи Apache
-    
     │   ├── access.log
-    
     │   ├── error.log
-    
     │   ├── project1_access.log
-    
     │   ├── project1_error.log
-    
     │   ├── project2_access.log
-    
     │   └── project2_error.log
-    
     ├── php/                 # Логи PHP
-    
     │   ├── project1_error.log
-    
     │   └── project2_error.log
-    
-    ├── postgres/            # Логи PostgreSQL
-    
+    └── postgres/            # Логи PostgreSQL
         └── postgresql.log
 ```
     
